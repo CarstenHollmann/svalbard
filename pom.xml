@@ -108,7 +108,7 @@
 
     <properties>
         <timestamp>${maven.build.timestamp}</timestamp>
-        <version.n52CommonXML>2.3.0</version.n52CommonXML>
+        <version.n52CommonXML>2.4.0-SNAPSHOT</version.n52CommonXML>
         <version.xmlbeans>2.6.0</version.xmlbeans>
         <version.jackson>2.9.2</version.jackson>
         <version.exificient>0.9.6</version.exificient>
@@ -577,6 +577,16 @@
             <dependency>
                 <groupId>org.n52.sensorweb</groupId>
                 <artifactId>52n-xml-sosro-v10</artifactId>
+                <version>${version.n52CommonXML}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.n52.sensorweb</groupId>
+                <artifactId>52n-xml-sosrf-v10</artifactId>
+                <version>${version.n52CommonXML}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.n52.sensorweb</groupId>
+                <artifactId>52n-xml-sossf-v10</artifactId>
                 <version>${version.n52CommonXML}</version>
             </dependency>
             <dependency>
